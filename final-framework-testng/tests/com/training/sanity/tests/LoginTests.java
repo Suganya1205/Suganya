@@ -34,7 +34,7 @@ public class LoginTests {
 
 	@BeforeMethod
 	public void setUp() throws Exception {
-		driver = DriverFactory.getDriver(DriverNames.CHROME);
+		driver = DriverFactory.getDriver(DriverNames.FIREFOX);
 		loginPOM = new LoginPOM(driver); 
 		homePOM = new HomePOM(driver);
 		baseUrl = properties.getProperty("baseURL");
