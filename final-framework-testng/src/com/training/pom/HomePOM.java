@@ -13,10 +13,10 @@ public class HomePOM {
 		PageFactory.initElements(driver, this);
 	}
 	
-	@FindBy(className="fa-user")
-	private WebElement user_icon; 
+	@FindBy(className="sign-in")
+	private WebElement lognorreg_icon; 
 	
-	public void clickUserIcon() {
-		this.user_icon.click(); 
+	public void clickLogInorRegtr() {
+		this.lognorreg_icon.click(); 
 	}
 }

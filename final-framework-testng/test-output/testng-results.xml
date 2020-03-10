@@ -1,29 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
+    <line>
+      <![CDATA[Clicking upon reset password button, system is giving error message 'The email could not be sent. Possible reason: your host may have disabled the mail() function.']]>
+    </line>
+    <line>
+      <![CDATA[Hence the further test cases are not automated.]]>
+    </line>
   </reporter-output>
-  <suite name="Sample test Suite" duration-ms="30650" started-at="2020-03-03T10:55:36Z" finished-at="2020-03-03T10:56:07Z">
+  <suite name="Default suite" duration-ms="81236" started-at="2020-03-10T05:09:00Z" finished-at="2020-03-10T05:10:21Z">
     <groups>
     </groups>
-    <test name="Sample test" duration-ms="30650" started-at="2020-03-03T10:55:36Z" finished-at="2020-03-03T10:56:07Z">
-      <class name="com.training.sanity.tests.LoginTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTests@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="13" started-at="2020-03-03T16:25:36Z" finished-at="2020-03-03T16:25:36Z">
+    <test name="Default test" duration-ms="81236" started-at="2020-03-10T05:09:00Z" finished-at="2020-03-10T05:10:21Z">
+      <class name="com.training.sanity.tests.LoginTestAsgnmt1">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="31" started-at="2020-03-10T10:39:00Z" finished-at="2020-03-10T10:39:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTests@5c7fa833]" name="setUp" is-config="true" duration-ms="16600" started-at="2020-03-03T16:25:36Z" finished-at="2020-03-03T16:25:53Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="15131" started-at="2020-03-10T10:39:00Z" finished-at="2020-03-10T10:39:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTests@5c7fa833]" name="validLoginTest" duration-ms="9401" started-at="2020-03-03T16:25:53Z" finished-at="2020-03-03T16:26:02Z">
+        <test-method status="PASS" signature="validRegTest()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="validRegTest" duration-ms="5931" started-at="2020-03-10T10:39:15Z" finished-at="2020-03-10T10:39:21Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTests@5c7fa833]" name="tearDown" is-config="true" duration-ms="4611" started-at="2020-03-03T16:26:02Z" finished-at="2020-03-03T16:26:07Z">
+        </test-method> <!-- validRegTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="3093" started-at="2020-03-10T10:39:21Z" finished-at="2020-03-10T10:39:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.LoginTests -->
-    </test> <!-- Sample test -->
-  </suite> <!-- Sample test Suite -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="14007" started-at="2020-03-10T10:39:24Z" finished-at="2020-03-10T10:39:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="validLoginTest" duration-ms="5179" started-at="2020-03-10T10:39:38Z" depends-on-methods="com.training.sanity.tests.LoginTestAsgnmt1.validRegTest" finished-at="2020-03-10T10:39:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="2760" started-at="2020-03-10T10:39:44Z" finished-at="2020-03-10T10:39:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="23614" started-at="2020-03-10T10:39:46Z" finished-at="2020-03-10T10:40:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="validrocoverPasswordTest()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="validrocoverPasswordTest" duration-ms="8642" started-at="2020-03-10T10:40:10Z" depends-on-methods="com.training.sanity.tests.LoginTestAsgnmt1.validRegTest" finished-at="2020-03-10T10:40:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Clicking upon reset password button, system is giving error message 'The email could not be sent. Possible reason: your host may have disabled the mail() function.']]>
+            </line>
+            <line>
+              <![CDATA[Hence the further test cases are not automated.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validrocoverPasswordTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="2816" started-at="2020-03-10T10:40:19Z" finished-at="2020-03-10T10:40:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.LoginTestAsgnmt1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
