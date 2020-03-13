@@ -13,6 +13,7 @@ import org.testng.annotations.Test;
 import com.training.generics.ScreenShot;
 import com.training.pom.HomePOM;
 import com.training.pom.LoginPOM;
+import com.training.pom.MedLoginPOM;
 import com.training.pom.RecoverypasswordPOM;
 import com.training.pom.RegisterPOM;
 import com.training.utility.DriverFactory;
@@ -54,15 +55,17 @@ public class LoginTestAsgnmt1 {
 		Thread.sleep(1000);
 		driver.quit();
 	}
+	
 	@Test ()
 	public void validRegTest() {
 		homePOM.clickLogInorRegtr();
 		registerPOM.clickRegisterTab();
-		registerPOM.sendemailId("admin6@gmail.com");
+		registerPOM.sendemailId("admin8@gmail.com");
 		registerPOM.sendFirstName("admin");
 		registerPOM.sendLastName("account");
 		registerPOM.clickRegisterBtn();
-		registerPOM.RegisterNotificmsg();
+		registerPOM.RegisterNotificmsg("You have successfully registered to Real Estate. We have emailed your password to the email address you entered.");
+		screenShot.captureScreenShot("Firstreg");
 	}
 	@Test (dependsOnMethods={"validRegTest"})
 	public void validLoginTest() {
@@ -70,8 +73,8 @@ public class LoginTestAsgnmt1 {
 		loginPOM.sendUserName("suganya@gmail.com");
 		loginPOM.sendPassword("suganya@123");
 		loginPOM.clickSignInBtn();
-		loginPOM.verifyPagetext();
-		screenShot.captureScreenShot("First");
+		loginPOM.verifyPagetext("My Account");
+		screenShot.captureScreenShot("Firstlog");
 	}
 	@Test (dependsOnMethods={"validRegTest"})
 	public void validrocoverPasswordTest() throws InterruptedException {
@@ -80,7 +83,7 @@ public class LoginTestAsgnmt1 {
 		recoverypassPOM.lostPasswordLink();
 		recoverypassPOM.sendEmailId("suganya@gmail.com");
 		recoverypassPOM.resetPassButton();
-		screenShot.captureScreenShot("First");
+		screenShot.captureScreenShot("Firstpassrec");
 		recoverypassPOM.testReport();
 	}
 }

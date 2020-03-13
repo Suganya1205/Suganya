@@ -2,64 +2,64 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
     <line>
-      <![CDATA[Clicking upon reset password button, system is giving error message 'The email could not be sent. Possible reason: your host may have disabled the mail() function.']]>
+      <![CDATA[New Properties is been successfully added by Admin]]>
     </line>
     <line>
-      <![CDATA[Hence the further test cases are not automated.]]>
+      <![CDATA[New Properties is been successfully added by Admin]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="81236" started-at="2020-03-10T05:09:00Z" finished-at="2020-03-10T05:10:21Z">
+  <suite name="Default suite" duration-ms="130864" started-at="2020-03-13T11:34:26Z" finished-at="2020-03-13T11:36:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="81236" started-at="2020-03-10T05:09:00Z" finished-at="2020-03-10T05:10:21Z">
-      <class name="com.training.sanity.tests.LoginTestAsgnmt1">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="31" started-at="2020-03-10T10:39:00Z" finished-at="2020-03-10T10:39:00Z">
+    <test name="Default test" duration-ms="130864" started-at="2020-03-13T11:34:26Z" finished-at="2020-03-13T11:36:37Z">
+      <class name="com.training.sanity.tests.MediumTestAsgnmt1">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="setUpBeforeClass" is-config="true" duration-ms="15" started-at="2020-03-13T17:04:26Z" finished-at="2020-03-13T17:04:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="15131" started-at="2020-03-10T10:39:00Z" finished-at="2020-03-10T10:39:15Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="20991" started-at="2020-03-13T17:04:26Z" finished-at="2020-03-13T17:04:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validRegTest()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="validRegTest" duration-ms="5931" started-at="2020-03-10T10:39:15Z" finished-at="2020-03-10T10:39:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validRegTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="3093" started-at="2020-03-10T10:39:21Z" finished-at="2020-03-10T10:39:24Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="14007" started-at="2020-03-10T10:39:24Z" finished-at="2020-03-10T10:39:38Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validLoginTest()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="validLoginTest" duration-ms="5179" started-at="2020-03-10T10:39:38Z" depends-on-methods="com.training.sanity.tests.LoginTestAsgnmt1.validRegTest" finished-at="2020-03-10T10:39:44Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="2760" started-at="2020-03-10T10:39:44Z" finished-at="2020-03-10T10:39:46Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="23614" started-at="2020-03-10T10:39:46Z" finished-at="2020-03-10T10:40:10Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="validrocoverPasswordTest()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="validrocoverPasswordTest" duration-ms="8642" started-at="2020-03-10T10:40:10Z" depends-on-methods="com.training.sanity.tests.LoginTestAsgnmt1.validRegTest" finished-at="2020-03-10T10:40:19Z">
+        <test-method status="PASS" signature="addNewPropertybyAdmin()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="addNewPropertybyAdmin" duration-ms="24701" started-at="2020-03-13T17:04:47Z" finished-at="2020-03-13T17:05:11Z">
           <reporter-output>
             <line>
-              <![CDATA[Clicking upon reset password button, system is giving error message 'The email could not be sent. Possible reason: your host may have disabled the mail() function.']]>
-            </line>
-            <line>
-              <![CDATA[Hence the further test cases are not automated.]]>
+              <![CDATA[New Properties is been successfully added by Admin]]>
             </line>
           </reporter-output>
-        </test-method> <!-- validrocoverPasswordTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.LoginTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="2816" started-at="2020-03-10T10:40:19Z" finished-at="2020-03-10T10:40:21Z">
+        </test-method> <!-- addNewPropertybyAdmin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="3364" started-at="2020-03-13T17:05:12Z" finished-at="2020-03-13T17:05:15Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.LoginTestAsgnmt1 -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="18106" started-at="2020-03-13T17:05:15Z" finished-at="2020-03-13T17:05:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="CustomerViewEnquireandCalculateLoan()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="CustomerViewEnquireandCalculateLoan" duration-ms="19777" started-at="2020-03-13T17:05:33Z" finished-at="2020-03-13T17:05:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CustomerViewEnquireandCalculateLoan -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="4833" started-at="2020-03-13T17:05:53Z" finished-at="2020-03-13T17:05:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="setUp" is-config="true" duration-ms="16741" started-at="2020-03-13T17:05:58Z" finished-at="2020-03-13T17:06:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="viewAddedPropertybyAdmin()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="viewAddedPropertybyAdmin" duration-ms="19628" started-at="2020-03-13T17:06:14Z" depends-on-methods="com.training.sanity.tests.MediumTestAsgnmt1.addNewPropertybyAdmin" finished-at="2020-03-13T17:06:34Z">
+          <reporter-output>
+            <line>
+              <![CDATA[New Properties is been successfully added by Admin]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- viewAddedPropertybyAdmin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.MediumTestAsgnmt1@5c7fa833]" name="tearDown" is-config="true" duration-ms="2660" started-at="2020-03-13T17:06:34Z" finished-at="2020-03-13T17:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.training.sanity.tests.MediumTestAsgnmt1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -33,7 +33,7 @@ public class RecoverypasswordPOM {
 	
 	public void sendEmailId(String emailId) {
 		this.emailId.click();
-		this.emailId.sendKeys("suganya@gmail.com");
+		this.emailId.sendKeys(emailId);
 	}
 	
 	public void resetPassButton() {

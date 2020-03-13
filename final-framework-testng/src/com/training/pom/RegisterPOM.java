@@ -56,10 +56,11 @@ public class RegisterPOM {
 	public void clickRegisterBtn() {
 		this.registerBtn.click(); 
 	}
-	public void RegisterNotificmsg() {
+	public void RegisterNotificmsg(String notimsg) 
+	{
 		this.registerNotificmsg.getText();
 		System.out.println(registerNotificmsg.getText());
-		Assert.assertEquals(registerNotificmsg.getText(),"You have successfully registered to Real Estate. We have emailed your password to the email address you entered.");
-			System.out.println("Successfully Registered");		
-		}
+		Assert.assertEquals(registerNotificmsg.getText(),notimsg);
+		System.out.println("Successfully Registered");
+	}
 }

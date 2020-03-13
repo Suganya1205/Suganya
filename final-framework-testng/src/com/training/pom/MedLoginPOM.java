@@ -8,10 +8,11 @@ import org.openqa.selenium.support.How;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
 
-public class LoginPOM {
+public class MedLoginPOM {
 	private WebDriver driver; 
+	private boolean b;
 	
-	public LoginPOM(WebDriver driver) {
+	public MedLoginPOM(WebDriver driver) {
 		this.driver = driver; 
 		PageFactory.initElements(driver, this);
 	}
@@ -25,8 +26,8 @@ public class LoginPOM {
 	@FindBy(name="login")
 	private WebElement signInBtn; 
 	
-	@FindBy(className ="margin-top-0")
-	private WebElement verifyPagetext; 
+	@FindBy(partialLinkText ="Dashboard")
+	private WebElement verifyPageicon; 
 	
 	public void sendUserName(String userName) {
 		this.userName.clear();
@@ -42,10 +43,10 @@ public class LoginPOM {
 		this.signInBtn.click(); 
 	}
 
-	public void verifyPagetext(String acc) {
-		this.verifyPagetext.getText();
-		System.out.println(verifyPagetext.getText());
-		Assert.assertEquals(verifyPagetext.getText(),acc);
-		System.out.println("Login Successful");
+	public void verifyPageicon() {
+		this.verifyPageicon.getText();
+		System.out.println(verifyPageicon.getText());
+		verifyPageicon.getText().equals("Dashboard");
+		System.out.println("Admin Login Successful");
 		}
 }
